@@ -3,7 +3,10 @@ int main(void){
 	int a;
 	scanf("%d",&a);
 	if(a == 1){
-		printf("EunsuJeong");
+		printf("EunsuJeong\n");
+	}
+	else if(a==2){
+		printf("I am Eunsu !! Computer Science\n");
 	}
 	return 0;
 }
